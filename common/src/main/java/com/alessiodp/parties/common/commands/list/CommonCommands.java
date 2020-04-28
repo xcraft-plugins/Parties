@@ -21,6 +21,7 @@ public enum CommonCommands implements ADPCommand {
 	INVITE,
 	KICK,
 	LEAVE,
+	PLAYER,
 	RANK,
 	RELOAD,
 	RENAME,
@@ -87,6 +88,8 @@ public enum CommonCommands implements ADPCommand {
 		CommonCommands.LEAVE.command = ConfigMain.COMMANDS_CMD_LEAVE;
 		CommonCommands.LEAVE.help = Messages.HELP_MAINCMD_LEAVE;
 		CommonCommands.LEAVE.permission = PartiesPermission.LEAVE.toString();
+		CommonCommands.PLAYER.permission = PartiesPermission.PLAYER.toString();
+		CommonCommands.PLAYER.command = ConfigMain.COMMANDS_CMD_PLAYER;
 		CommonCommands.RANK.command = ConfigMain.COMMANDS_CMD_RANK;
 		CommonCommands.RANK.help = Messages.HELP_MAINCMD_RANK;
 		CommonCommands.RANK.permission = PartiesPermission.RANK.toString();

@@ -341,6 +341,7 @@ commands:
     motd: "motd"
     mute: "mute"
     password: "password"
+    player: "player"
     protection: "protection"
     rank: "rank"
     reload: "reload"
@@ -369,6 +370,7 @@ commands:
   - leave
   - invite
   - info
+  - player
   - list
   - chat
   - desc

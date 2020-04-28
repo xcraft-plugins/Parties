@@ -103,6 +103,7 @@ public abstract class ConfigMain extends ConfigurationFile {
 	public static String		COMMANDS_CMD_MOTD;
 	public static String		COMMANDS_CMD_MUTE;
 	public static String		COMMANDS_CMD_PASSWORD;
+	public static String		COMMANDS_CMD_PLAYER;
 	public static String		COMMANDS_CMD_RANK;
 	public static String		COMMANDS_CMD_RELOAD;
 	public static String		COMMANDS_CMD_RENAME;
@@ -219,6 +220,7 @@ public abstract class ConfigMain extends ConfigurationFile {
 		COMMANDS_CMD_MOTD = "motd";
 		COMMANDS_CMD_MUTE = "mute";
 		COMMANDS_CMD_PASSWORD = "password";
+		COMMANDS_CMD_PLAYER = "player";
 		COMMANDS_CMD_RANK = "rank";
 		COMMANDS_CMD_RELOAD = "reload";
 		COMMANDS_CMD_RENAME = "rename";
@@ -327,6 +329,7 @@ public abstract class ConfigMain extends ConfigurationFile {
 		COMMANDS_CMD_MOTD = confAdapter.getString("commands.main-commands.motd", COMMANDS_CMD_MOTD);
 		COMMANDS_CMD_MUTE = confAdapter.getString("commands.main-commands.mute", COMMANDS_CMD_MUTE);
 		COMMANDS_CMD_PASSWORD = confAdapter.getString("commands.main-commands.password", COMMANDS_CMD_PASSWORD);
+		COMMANDS_CMD_PLAYER = confAdapter.getString("commands.main-commands.player", COMMANDS_CMD_PLAYER);
 		COMMANDS_CMD_RANK = confAdapter.getString("commands.main-commands.rank", COMMANDS_CMD_RANK);
 		COMMANDS_CMD_RELOAD = confAdapter.getString("commands.main-commands.reload", COMMANDS_CMD_RELOAD);
 		COMMANDS_CMD_RENAME = confAdapter.getString("commands.main-commands.rename", COMMANDS_CMD_RENAME);

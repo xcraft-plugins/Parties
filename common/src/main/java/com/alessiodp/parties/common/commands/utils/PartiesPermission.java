@@ -26,6 +26,7 @@ public enum PartiesPermission implements ADPPermission {
 	MOTD		("parties.user.motd"),
 	MUTE		("parties.user.mute"),
 	PASSWORD	("parties.user.password"),
+	PLAYER		("parties.user.player"),
 	RANK		("parties.user.rank"),
 	RENAME		("parties.user.rename"),
 	SENDMESSAGE	("parties.user.sendmessage"),

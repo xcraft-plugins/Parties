@@ -50,6 +50,8 @@ permissions:
     description: Allow access to /party mute
   parties.user.password:
     description: Allow access to /party password
+  parties.user.player:
+    description: Allow access to /party player
   parties.user.rank:
     description: Allow access to /party rank
   parties.user.rename:
