@@ -370,7 +370,6 @@ commands:
   - leave
   - invite
   - info
-  - player
   - list
   - chat
   - desc
@@ -383,6 +382,7 @@ commands:
   - claim
   - teleport
   - password
+  - player
   - rank
   - rename
   - kick

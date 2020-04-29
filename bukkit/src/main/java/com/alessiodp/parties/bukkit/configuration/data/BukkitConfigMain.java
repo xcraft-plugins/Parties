@@ -207,6 +207,7 @@ public class BukkitConfigMain extends ConfigMain {
 		ConfigMain.COMMANDS_ORDER.add("claim");
 		ConfigMain.COMMANDS_ORDER.add("teleport");
 		ConfigMain.COMMANDS_ORDER.add("password");
+		ConfigMain.COMMANDS_ORDER.add("player");
 		ConfigMain.COMMANDS_ORDER.add("rank");
 		ConfigMain.COMMANDS_ORDER.add("rename");
 		ConfigMain.COMMANDS_ORDER.add("kick");
